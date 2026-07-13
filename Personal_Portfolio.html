@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jahmeel Shabaf</title>
+    <!-- Bootstrap Library Here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+
+    <!-- CSS Here -->
+    <!-- IA1 -->
+    <style>
+        /* IA1 */
+        .container-company{
+            background-color:brown;
+            height:100%;
+        }
+        .container-company h2{
+            font-size: 80px;
+            color: grey;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 80px;
+            font-weight: bold;
+        }
+
+        .container-company p{
+            font-size: 40px;
+            color: grey;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+
+        .container-company button{
+            font-size: 30px;
+            color: black;
+            background-color: brown;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            width: 350px;
+            border: 6px solid black;
+        }
+
+        /* responsive web design - smartphone */
+
+        @media only screen and (max-width:600px){
+             .container-company h2{
+            font-size: 50px;
+           
+        }
+
+        .container-company p{
+            font-size: 20px;
+            
+        }
+        }
+    </style>
+    <!-- IA2  -->
+    <style>
+        .product{
+            width:400px;
+            height:400px;
+            border:5px solid darkgray;
+            border-radius: 50%;
+            padding: 10px;
+            margin: 10px;
+        }
+        .container-product{
+            background-color: darkgrey;
+            padding:20px;
+        }
+        .container-product h2{
+            font-size: 40px;
+            color: whitesmoke;
+            font-weight: bolder;
+        }
+
+        .container-product p{
+            font-size: 25px;
+            color: black;
+            font-weight: bolder;
+        }
+
+        .container-product button{
+            font-size: 30px;
+            color: whitesmoke;
+            background-color: darkgrey;
+        }
+
+    </style>
+    <!-- IA3  -->
+    <style>
+        .container-team{
+            background-color:gray;
+            padding: 20px;
+
+        }
+
+        .member{
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            border: 10px solid black;
+        }
+
+        .box{
+            background-color: lightgray;
+            padding: 20px;
+            border: 5px solid black;
+            border-radius: 20%;
+        }
+
+        .container-team h2{
+            color: black;
+            font-size: 40px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 20px;
+        }
+
+        .container-team h3{
+            color: black;
+            font-size: 40px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 15px;
+        }
+
+        .container-team p{
+            color: black;
+            font-size: 40px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 15px;
+        }
+
+        .box:hover{
+            background-color: brown;
+            box-shadow: 15px 15px 15px black;
+            transition: 1s;
+        }
+
+
+
+    </style>
+    <!--  IA4  -->
+    <style>
+        .container-feature{
+            background-color: lightgray;
+            padding: 40px;
+        }
+
+        .container-feature h2{
+            color: black;
+            font-size: 50px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 20px;
+
+        }
+        .search{
+            width: 50%;
+            color: black;
+            font-size: 30px;
+            font-weight: bold;
+            background-color: gray;
+            border: 3px solid black;
+            margin-bottom: 20px;
+
+            /* move search bar to center*/
+
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        table, th, td{
+            border: 2px solid black;
+            height: 70px;
+
+        }
+
+        th{
+            background-color: gray;
+            color: black;
+            font-size: 25px;
+            text-align: center;
+        }
+
+        td{
+            color: black;
+            font-size: 25px;
+            text-align: center;
+        }
+
+        tr:hover{
+            background-color: gray;
+            transition: 1s;
+            
+        }
+
+        td:hover{
+            color: whitesmoke;
+        }
+
+
+    </style>
+    <!--  IA5  -->
+    <style>
+        .slide-pic{
+            width: 80%;
+            height:700px;
+        }
+
+        .container-smart h2{
+            color: white;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .carousel-control-prev-icon{
+            background-color: gray;
+            width: 50px;
+            height: 50px;
+        }
+
+         .carousel-control-next-icon{
+            background-color: gray;
+            width: 50px;
+            height: 50px;
+           
+        }
+
+        .carousel-indicators [data-bs-target]{
+            background-color: gray;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+
+
+
+    </style>
+    <!-- IA6  -->
+    <style>
+        .container-customer{
+            background-color: gray;
+            padding: 40px;
+        }
+        .customer{
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            border: 10px solid black;
+        }
+
+        .container-customer h2{
+            font-size: 40px;
+            margin: 10px;
+            color: brown;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+        }
+
+        .nav-link{
+            color: brown;
+            font-size: 10px;
+
+        }
+
+        .nav-tabs .nav-link{
+            background-color: gray;
+            border: black;
+        }
+
+        .nav-tabs .nav-link:focus{
+            color: brown;
+            background-color: gray;
+        }
+
+         .container-customer h3{
+            font-size: 20px;
+            margin: 10px;
+            color: brown;
+            font-weight: bold;
+        }
+
+        .container-customer p{
+            font-size: 30px;
+            margin: 30px;
+            color: black;
+            font-weight: light;
+        }
+
+    </style>
+    <!--  IA7  -->
+    <style>
+        .order{
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            border: 4px solid black;
+        }
+
+        .container-order{
+            padding: 40px;
+            background-color: darkgray;
+        }
+
+        .container-order h2{
+            font-size: 40px;
+            color: black;
+            font-weight: bold;
+        }
+
+        .container-order p{
+            font-size: 30px;
+            color: black;
+            font-weight: bold;
+        }
+
+        .container-order button{
+            font-size: 30px;
+            color: black;
+            background-color: brown;
+            width: 60%;
+        }
+
+        .modal-content{
+            background-color: antiquewhite;
+            font-size: 25px;
+            color: black;
+        }
+
+        .modal-dialog{
+            width: 1600px;
+        }
+
+        .modal-footer button{
+            width: 100%;
+            color: yellow;
+            font-size: 30px;
+        }
+
+        .modal-header h3{
+            color: black;
+            font-size: 30px;
+        }
+
+    </style>
+    <!--  IA8  -->
+    <style>
+        .container-contact{
+            background-color: brown;
+            paddings:40px;
+
+        }
+
+        .container-contact h2{
+            font-size: 40px;
+            color: black;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        .container-contact p{
+            font-size: 20px;
+            color: black;
+
+        }
+
+        .container-contact input{
+            margin: 10px;
+            font-size: 15px;
+            color: gray;
+            background-color: white;
+        }
+
+        .container-contact textarea{
+            margin-bottom:20px;
+            font-size: 15px;
+            color: gray;
+            background-color: white;
+        }
+
+        .container-contact label{
+            margin-bottom:20px;
+            font-size: 15px;
+            color: white;
+        }
+
+        .container-contact input[type="checkbox"]{
+            transform: scale(1);
+            margin: 10px;
+        }
+
+         .container-contact input[type="radio"]{
+            transform: scale(1);
+            margin: 10px;
+        }
+
+        .container-contact .btn-primary{
+            margin: 20px;
+            font-size: 15px;
+        }
+
+
+
+    </style>
+    <!--  IA9  -->
+    <style>
+        .navbar{
+            background-color: gray;
+            font-size: 20px;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            opacity: 0.8;
+            z-index: 10;
+        }
+
+        .navbar li a{
+            color: white;
+            font-size: 25px;
+            padding: 10px;
+            text-decoration: none;
+            
+        }
+
+        .navbar li a:hover{
+            color: black;
+            background-color: gray;
+            transition: 1s;
+            padding: 13px;
+        }
+
+        .navbar-brand{
+            color: black;
+            font-size: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+
+        .navbar-toggler{
+            color: black;
+            background-color: lightgrey;
+        }
+
+        footer{
+            background-color: gray;
+            padding: 50px;
+
+        }
+
+        footer p{
+            font-size: 25px;
+            color: black;
+            padding: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+
+       
+
+
+    </style>
+
+    </style>
+
+
+    <!-- JavaScript Here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-JobWAqYk5CSjWuVV3mxgS+MmccJqkrBaDhk8SKS1BW+71dJ9gzascwzW85UwGhxiSyR7Pxhu50k+Nl3+o5I49A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        // IA1
+        function welcomeMsg(){
+
+                alert("Information Technology student at California State University, Dominguez Hills with interests in IT Support, Cybersecurity, Networking and Software Development, I'm currently seeking an IT Help Desk or Cybersecurity internship where I can apply my technical skills and continue learning")
+
+            }
+        // IA2 
+        function showInfo(){
+            var x=document.getElementById("productInfo")
+
+            if(x.style.display=="none"){
+                // condition 1 where display is none
+                x.style.display="block";
+            }else{
+                //condition 2 where display is block
+                x.style.display="none";
+            }
+        }
+        // IA3 
+       //image1
+        function hoverImage1(){
+            document.getElementById("image1").src="images/Mcdonalds.jpg";
+        }
+        function unhoverImage1(){
+            document.getElementById("image1").src="images/Mcdonalds.jpeg";
+        }
+        //image2
+        function hoverImage2(){
+            document.getElementById("image2").src="images/BDPEG.jpeg";
+        }
+        function unhoverImage2(){
+            document.getElementById("image2").src="images/BDPEG.jpeg";
+        }
+
+        //image3
+        function hoverImage3(){
+            document.getElementById("image3").src="images/CinemaWest.jpeg";
+        }
+        function unhoverImage3(){
+            document.getElementById("image3").src="images/CinemaWest.jpeg";
+        }
+            document.getElementById("image3").src="images/CinemaWest.jpeg";
+        // IA4 
+         $(document).ready(function(){
+            $("#mySearch").on("keyup" , function(){
+                var value=$(this).val().toLowerCase();
+                $("#myTable tr").filter(function(){
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value)>-1)
+                
+                });
+            
+            });
+
+        });
+        // IA8 
+        function validateForm(){
+            var name=document.getElementById("name").value;
+            var email=document.getElementById("email").value;
+            if(name == "" || email == ""){
+                alert("Name or/and Email is missing")
+                return false;
+            }
+            
+
+        }
+   
+
+    </script>
+
+
+</head>
+<body>
+    <!-- HTML Content Here -->
+
+    <!-- IA91 -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"> Jahmeel Shabaf </a>
+        <!-- Small Screen -->
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#button">
+
+            <span class="navbar-toggler-icon"></span>
+
+         </button>
+
+        <!-- Large Screen -->
+         <div class="collapse navbar-collapse" id="button">
+
+            <ul class="nav navbar-nav">
+                <li> <a href="#about"> About</a> </li>
+                <li> <a href="#customer"> Work Experience</a> </li>
+                <li> <a href="#contact"> Contact</a> </li>
+
+            </ul>
+
+         </div>
+
+    </nav>
+    <!-- IA1 -->
+    <div class="container-company text-center" id="about">
+            <h2> Jahmeel Shabaf    </h2>
+            <p>  Personal Portfolio   </p>
+            <button onclick="welcomeMsg()"> About Me!   </button>
+        <div>
+    <!-- IA6 -->
+    <div class="container-customer text-center" id="customer">
+        <div class="row">
+            <h2> Work Experience </h2>
+
+            <!-- NavBar for buttons -->
+                <nav>
+                    <div class="nav nav-tabs nav-justified">
+                        <!-- Button1 -->
+                        <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#menu1">
+                            McDonalds
+                        </button>
+
+                        <!-- Button2 -->
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#menu2">
+                            BDPEG
+                        </button>
+
+                        <!-- Button3 -->
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#menu3">
+                            CinemaWest
+                        </button>
+
+                    </div>
+                </nav>
+
+            <!-- Content -->
+                <div class="tab-content">
+
+                <!-- Customer 1 -->
+                    <div class="tab-pane fade show active" id="menu1">
+                        <h3>McDonalds</h3>
+                        <img class="customer" src="images/McDonalds.jpg">
+                        <p>Worked in a high-volume environment, handling transactions accurately while providing excellent customer service and collaborating with team members.Worked in a high-volume environment, handling transactions accurately while providing excellent customer service and collaborating with team members.</p>
+                    </div>
+
+                <!-- Customer 1 -->
+                    <div class="tab-pane fade show" id="menu2">
+                        <h3>BDPEG</h3>
+                        <img class="customer" src="images/BDPEG.jpeg">
+                        <p>Assisted with on-set production operations while supporting technical tasks including website updates, equipment setup, and digital asset organization.</p>
+                    </div>
+
+                <!-- Customer 1 -->
+                    <div class="tab-pane fade show" id="menu3">
+                        <h3>CinemaWest Beach Cities</h3>
+                        <img class="customer" src="images/Cinemawest.jpeg">
+                        <p>Provided customer service in a fast-paced environment while resolving customer issues and maintaining a safe, organized facility.</p>
+                    </div>
+
+                </div>
+
+        </div>
+    </div>
+    <!-- Modal Part -->
+     <div class="modal fade" id="link">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Header -->
+                <div class="modal-header">
+                    <h3>Pre-Order Form</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+
+                    </button>
+                </div>
+                <!-- Body -->
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>LED Lights: $19.99</label>
+                        <input type="number" class="form-control" placeholder="How Many do you want?">
+
+                        <label>Email</label>
+                        <input type="text" class="form-control" placeholder="Your Email">
+                    </div>
+                </div>
+                <!-- Footer -->
+                 <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Pay
+
+                    </button>
+                 </div>
+
+
+            </div>
+        </div>
+     </div>
+    <!-- IA8 -->
+     <div class="container-contact text-center" id="contact">
+        <div class="row">
+            <h2>Contact Me</h2>
+            <!-- left column - contact infor-->
+            <div class="col-sm-4">
+                <p>Email: Jahmeelbdpeg@gmail.com</p>
+                <p>Phone Number: 310-739-1449</p>
+                <p>Address: 13456 Roselle Ave, Hawthorne, CA</p>
+
+            </div>
+            <!-- right column - form -->
+             <div class="col-sm-8">
+                <form>
+                    <!-- row 1 -->
+                     <div class="row">
+                        <div class="col-sm-6">
+                            <input class="form-control" placeholder="Name" id="name">
+                        </div>
+
+                        <div class="col-sm-6">
+                            <input class="form-control" placeholder="Email" id="email">
+                        </div>
+                    </div>
+                    <!-- row 2 -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <textarea class="form-control" placeholder="Comment" row="5">
+
+                            </textarea>
+                        </div>
+                    </div>
+                    <!-- row 3 -->
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <label><input type="checkbox" name="gender" value="male">Male </label>
+                            <label><input type="checkbox" name="gender" value="woman">Woman </label>
+
+                        </div>
+                        <div class="col-sm-6">
+                            <label><input type="radio" name="membership" value="member">Friend </label>
+                            <label><input type="radio" name="membership" value="non-member">Company </label>
+                            <!--Radio allows only one choice, checkbox allows multiple choices  -->
+                        </div>
+
+                    </div>
+                    <!-- row 5 - submit button -->
+                    <div class="row">
+                        <button class="btn btn-primary" onclick="validateForm()">Submit</button>
+                    </div>
+
+                </form>
+
+             </div>
+        </div>
+    </div>
+    <!-- IA92 -->
+    <footer class="container-footer text-center">
+        <a href="#about"> 
+
+            <svg xmlns="http://www.w3.org/2000/svg" stroke="black" stroke-width="1" width="30" height="30" class="bi bi-chevron-up" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z"/>
+            </svg>
+
+        </a>
+        <br>
+        <br> 
+        <p>Copyright &copy; Jahmeel Shabaf, All Right Reserved. </p>
+
+
+    </footer>
+
+
+
+        
+
+
+
+
+</body>
+</html>
